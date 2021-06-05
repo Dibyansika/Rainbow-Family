@@ -706,6 +706,12 @@ ul.tabs-nav .tab-nav.active {
 .icon-box.active .entry-content p {
     color: #fff;
 }
+.icon-box.active .entry-content1 p {
+    color: #fff;
+}
+.icon-box.active .entry-content2 p {
+    color: #fff;
+}
 
 /*
 # Bar Filler
