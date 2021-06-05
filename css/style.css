@@ -11,6 +11,11 @@ img {
     vertical-align: baseline;
 }
 
+.responsive{
+    width: 50%;
+    height: auto;
+}
+
 /*--------------------------------------------------------------
 # Links
 --------------------------------------------------------------*/
@@ -678,17 +683,35 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .icon-box .entry-content {
-    margin-top: 24px;
+    margin-top: 20px;
 }
 
 .icon-box .entry-content p {
     margin: 0;
-    font-size: 14px;
+    font-size: 15px;
+    color: #595858;
+}
+.icon-box .entry-content1 p {
+    margin: 0;
+    font-size: 12.445px;
+    color: #595858;
+}
+.icon-box .entry-content2 p {
+    margin: 0;
+    font-size: 13px;
     color: #595858;
 }
 
 .icon-box:hover .entry-content p,
 .icon-box.active .entry-content p {
+    color: #fff;
+}
+.icon-box:hover .entry-content1 p, 
+.icon-box.active .entry-content1 p {
+    color: #fff;
+}
+.icon-box:hover .entry-content2 p, 
+.icon-box.active .entry-content2 p {
     color: #fff;
 }
 
@@ -750,7 +773,6 @@ ul.tabs-nav .tab-nav.active {
 .home-page-welcome {
     position: relative;
     padding: 96px 0;
-    background: url("images/welcome-bg.jpg") no-repeat center;
     background-size: cover;
     z-index: 99;
 }
@@ -763,7 +785,8 @@ ul.tabs-nav .tab-nav.active {
     z-index: -1;
     width: 100%;
     height: 100%;
-    background: rgba(21,21,21,.9);
+    background: linear-gradient(orange , rgb(214, 214, 67), green, rgb(42, 42, 255));
+    opacity: 0.85;
 }
 
 .welcome-content .entry-title {
@@ -771,7 +794,7 @@ ul.tabs-nav .tab-nav.active {
     padding-bottom: 24px;
     font-size: 36px;
     font-weight: 600;
-    color: #fff;
+    color: rgb(22, 22, 22);
 }
 
 .welcome-content .entry-title::before {
@@ -782,13 +805,13 @@ ul.tabs-nav .tab-nav.active {
     width: 64px;
     height: 4px;
     border-radius: 2px;
-    background: #ff5a00;
 }
 
 .welcome-content .entry-content {
     font-size: 14px;
+    font-weight: 700;
     line-height: 2;
-    color: #b7b7b7;
+    color: #1b1b1b;
 }
 
 .home-page-welcome img {
@@ -1130,11 +1153,12 @@ ul.tabs-nav .tab-nav.active {
     z-index: -1;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,.7);
+    background: linear-gradient(orange , rgb(214, 214, 67), green, rgb(42, 42, 255));
 }
 
 .single-page .page-header h1 {
     position: relative;
+    text-align: left;
     padding-bottom: 24px;
     font-size: 36px;
     font-weight: 600;
@@ -1572,7 +1596,7 @@ ul.tabs-nav .tab-nav.active {
 # News
 --------------------------------------------------------------*/
 .news-page .page-header {
-    background: url(images/news-bg.jpg) no-repeat center;
+    background: linear-gradient(orange , rgb(214, 214, 67), green, rgb(42, 42, 255));
 }
 
 .news-wrap {
@@ -1873,7 +1897,7 @@ ul.tabs-nav .tab-nav.active {
 # Contact Page
 --------------------------------------------------------------*/
 .contact-page .page-header {
-    background: url(images/contact-bg.jpg) no-repeat center;
+    background: linear-gradient(orange , rgb(214, 214, 67), green, rgb(42, 42, 255));
 }
 
 .contact-page-wrap {
@@ -1984,7 +2008,7 @@ ul.tabs-nav .tab-nav.active {
 # Contact Page
 --------------------------------------------------------------*/
 .elements-page .page-header {
-    background: url(images/elements-bg.jpg) no-repeat center;
+    background: linear-gradient(orange , rgb(214, 214, 67), green, rgb(42, 42, 255));
 }
 
 /*--------------------------------------------------------------
@@ -1994,7 +2018,7 @@ ul.tabs-nav .tab-nav.active {
     position: relative;
     padding: 96px 0 90px;
     font-weight: 500;
-    color: #929191;
+    color: #ffffff;
     background: url("images/foot-bg.jpg") no-repeat center;
     background-size: cover;
     z-index: 99;
@@ -2009,12 +2033,13 @@ ul.tabs-nav .tab-nav.active {
     width: 100%;
     height: 101%;
     background: linear-gradient(rgb(42, 42, 255), indigo);
+    opacity: 0.85;
 }
 
 .footer-widgets h2 {
     margin-bottom: 40px;
     font-size: 18px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .footer-widgets ul {
@@ -2029,18 +2054,18 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .footer-widgets ul li a {
-    color: #a2a1a1;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .footer-widgets ul li a:hover {
-    color: #ff5a00;
+    color: #2b2b2b;
 }
 
 .foot-about p {
     font-size: 14px;
     line-height: 2;
-    color: #929191;
+    color: #ffffff;
 }
 
 .foot-about ul li {
@@ -2062,7 +2087,7 @@ ul.tabs-nav .tab-nav.active {
 
 .foot-latest-news ul li .posted-date {
     font-size: 12px;
-    color: #ff5a00;
+    color: #2e2e2e;
 }
 
 .foot-contact ul li {
@@ -2076,7 +2101,7 @@ ul.tabs-nav .tab-nav.active {
     margin-right: 10px;
     font-size: 18px;
     text-align: center;
-    color: #ff5a00;
+    color: #2e2e2e;
 }
 
 .foot-contact ul li span {
@@ -2113,7 +2138,7 @@ ul.tabs-nav .tab-nav.active {
     font-size: 12px;
     line-height: 1;
     text-transform: uppercase;
-    background: #ff5a00;
+    background: #3b3b3b;
     color: #fff;
     cursor: pointer;
     outline: none;
