@@ -706,9 +706,11 @@ ul.tabs-nav .tab-nav.active {
 .icon-box.active .entry-content p {
     color: #fff;
 }
+.icon-box:hover .entry-content1 p, 
 .icon-box.active .entry-content1 p {
     color: #fff;
 }
+.icon-box:hover .entry-content2 p, 
 .icon-box.active .entry-content2 p {
     color: #fff;
 }
