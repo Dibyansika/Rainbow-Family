@@ -1150,6 +1150,7 @@ ul.tabs-nav .tab-nav.active {
 
 .single-page .page-header h1 {
     position: relative;
+    text-align: left;
     padding-bottom: 24px;
     font-size: 36px;
     font-weight: 600;
